@@ -24,3 +24,22 @@
 
 ---
 
+## Testing Instructions
+
+1. Create a virtual environment
+python -m venv .venv
+
+2. Activate the virtual environment
+On macOS/Linux:
+source .venv/bin/activate
+On Windows:
+.venv\Scripts\activate
+
+3. pip install -r requirements.txt
+
+4. Goto app folder
+cd app
+
+5. Run adk
+adk web
+
